@@ -1,15 +1,16 @@
 body{
-    background-color: rgb(94, 203, 213);
+    background-color: rgb(220, 199, 244);
+   
 }
 .conatiner{
-    height: 100vh;
+    height: 80vh;
     display: flex;
 }
 .sidebar{
-    height: 150vh;
+    height: 85vh;
     width:190px;
     border: solid 2px goldenrod;
-    background-color: rgb(165, 243, 249);
+    background-color: rgb(190, 176, 239);
     border-radius: 30px;
 }
 img{
@@ -18,11 +19,13 @@ img{
     margin: 10px;
 }
 .menu-item{
-    background-color: rgb(226, 153, 211);
-    margin: 7px ;
+    margin: 5px ;
     border-radius: 20px;
     display:flex;
     align-items: center;
     cursor: pointer;
     color: rgb(201, 78, 30);
+}
+.menu-item:hover{
+    background-color: rgb(253, 230, 245);
 }
