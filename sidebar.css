@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(174, 115, 209);
+    background-color: rgb(94, 203, 213);
 }
 .conatiner{
     height: 100vh;
@@ -7,15 +7,22 @@ body{
 }
 .sidebar{
     height: 150vh;
-    width:160px;
+    width:190px;
     border: solid 2px goldenrod;
-    background-color: rgb(204, 165, 249);
+    background-color: rgb(165, 243, 249);
     border-radius: 30px;
 }
 img{
-    height: 70px;
-    width: 70px;
+    height: 45px;
+    width: 45px;
+    margin: 10px;
 }
 .menu-item{
-    background-color: azure;
+    background-color: rgb(226, 153, 211);
+    margin: 7px ;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(201, 78, 30);
 }
