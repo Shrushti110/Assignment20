@@ -12,3 +12,10 @@ body{
     background-color: rgb(204, 165, 249);
     border-radius: 30px;
 }
+img{
+    height: 70px;
+    width: 70px;
+}
+.menu-item{
+    background-color: azure;
+}
