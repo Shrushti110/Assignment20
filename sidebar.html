@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar Design</title>
-    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <style>
         /* Small devices*/
         @media screen and (max-width: 600px){
-            
+            .sidebar{display: none;}
         }
         /* Normal Devies*/
 
         @media screen and (min-width: 601px) and( max-width:768px) {
-            
+           .sidebar{display: none;} 
         }
         /* Tablet Devies*/
         @media screen and (min-width:769px) and (max-width:768px) {
             
         }
-        
-
+    
     </style>
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <a class="menu-item .active-menu"  href="./pages/home.html">
+            <div class="menu-item .active-menu">
                 <img src="img/sidebar/house.png"/>
                 <span class="menu-item"><h3>HOME</h3></span>
-            </a>
+            </div>
             <a class="menu-item" href="./pages/group.html">
                 <img src="img/sidebar/group.png"/>
                 <span class="menu-item"><h3>Groups</h3></span>
@@ -59,6 +58,12 @@
                 <span class="menu-item"><h3>Settings</h3></span>
             </div>
         </div>
+        <div class="content">
+            <h1><i>This is HomePage</i></h1>
+        </div>
+    </div>
+    <div class="bottom-navigatonbar">
+        Bottom Navigation Bar
     </div>
 </body>
 </html>
