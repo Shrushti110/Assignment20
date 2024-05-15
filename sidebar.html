@@ -8,16 +8,29 @@
     <style>
         /* Small devices*/
         @media screen and (max-width: 600px){
-            .sidebar{display: none;}
+            .sidebar{display: none;
+            }
+            .bottom-navigationbar{
+               display:block; 
+               justify-content: space-around;
+               display: flex;
+            }
         }
         /* Normal Devies*/
 
         @media screen and (min-width: 601px) and( max-width:768px) {
            .sidebar{display: none;} 
+           .bottom-navigationbar{
+               display:block; 
+               justify-content: space-around;
+            }
         }
         /* Tablet Devies*/
         @media screen and (min-width:769px) and (max-width:768px) {
-            
+            .sidebar{
+                display: flexbox;
+                justify-content: space-around;
+            }
         }
     
     </style>
@@ -62,8 +75,32 @@
             <h1><i>This is HomePage</i></h1>
         </div>
     </div>
-    <div class="bottom-navigatonbar">
-        Bottom Navigation Bar
+    <div class="bottom-navigationbar">
+        <div class="bottom-navigationbar">
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/house.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/group.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/information.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/decision.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/user.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/customer-satisfaction.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/phone-call.png" class="bottom-menu-icon"/>
+            </a>
+            <a class="bottom-menu-item">
+                <img src="./img/sidebar/settings.png" class="bottom-menu-icon"/>
+            </a>
     </div>
 </body>
 </html>
